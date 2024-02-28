@@ -10,7 +10,14 @@ body {
     "aside aside"
     "footer footer"
 }
-
+.pageimage{
+    position:fixed;
+            top: 220px; 
+            left: 400px; 
+            width: 600px; 
+            height: auto; 
+            border: 5px solid #0b0b0b;
+}
 header {
     background-color: #388659;
     color: white;
@@ -60,3 +67,51 @@ footer {
 .er{
     text-align: center ;
 }
+.bottom{
+    position:fixed;
+    bottom: 0; 
+    width: 100%;
+    text-align: center;
+    background-color: #0f0a0a;
+    padding: 5px;
+}
+.pp{
+    display: grid;
+    background-color: #0b0b0b;
+}
+.op{ 
+    background-color: #e3dcdba9; 
+    grid-area: nav;
+    color: #060606;
+    text-decoration: none;
+    display: flex;
+}
+nav ul li a {
+    color: #050505;
+    text-decoration: none;
+    grid-area: nav;
+}
+.img1{
+    width: 650px;
+    height: 600px;    
+}
+.img2{
+    top: 220px;
+    right: 220px;
+    width: 450px;
+    height: 450px;
+}
+.img3{
+    width: 550px;
+    height:500px;
+}
+.img4{
+    width: 450px;
+    height: 400px;
+}
+.img6{
+    width: 450px;
+    height: 400px;
+}
+
+
