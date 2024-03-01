@@ -67,6 +67,9 @@ footer {
 .er{
     text-align: center ;
 }
+.as{
+    position: fixed;
+}
 .bottom{
     position:fixed;
     bottom: 0; 
@@ -76,11 +79,12 @@ footer {
     padding: 5px;
 }
 .pp{
+    margin-bottom: 5px;
     display: grid;
     background-color: #0b0b0b;
 }
 .op{ 
-    background-color: #e3dcdba9; 
+    background-color: #eac807; 
     grid-area: nav;
     color: #060606;
     text-decoration: none;
@@ -92,26 +96,23 @@ nav ul li a {
     grid-area: nav;
 }
 .img1{
-    width: 650px;
-    height: 600px;    
+    border: 5px solid #030303;
+    width: 450px;
+    height: 370px;    
 }
 .img2{
-    top: 220px;
-    right: 220px;
+    border: 5px solid #030303;
     width: 450px;
-    height: 450px;
+    height: 370px;
 }
 .img3{
-    width: 550px;
-    height:500px;
+    border: 5px solid #030303;
+    margin-right: 120px;
+    width: 420px;
+    height:350px;
+}.a{
+    margin-top: 10px;
+    display: flex;
+ justify-content:space-between;
+    background-color:beige;
 }
-.img4{
-    width: 450px;
-    height: 400px;
-}
-.img6{
-    width: 450px;
-    height: 400px;
-}
-
-
