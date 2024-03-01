@@ -16,7 +16,7 @@ body {
             left: 400px; 
             width: 600px; 
             height: auto; 
-            border: 5px solid #0b0b0b;
+            border: 2px solid #0b0b0b;
 }
 header {
     background-color: #388659;
@@ -96,23 +96,29 @@ nav ul li a {
     grid-area: nav;
 }
 .img1{
-    border: 5px solid #030303;
+    border: 3px solid #030303;
     width: 450px;
     height: 370px;    
 }
 .img2{
-    border: 5px solid #030303;
+    border: 3px solid #030303;
     width: 450px;
     height: 370px;
 }
 .img3{
-    border: 5px solid #030303;
+    border: 3px solid #030303;
     margin-right: 120px;
     width: 420px;
     height:350px;
 }.a{
     margin-top: 10px;
     display: flex;
- justify-content:space-between;
-    background-color:beige;
+    justify-content: space-around;
+    background-color:rgb(249, 249, 240);
+}body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Optional: Set a background color */
+    overflow: hidden; /* Hide overflowing content */
 }
