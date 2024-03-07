@@ -23,13 +23,22 @@
 
         </ul>
     </nav>
-    <footer>
-        <form action="#" method="post"><input type="text" name="Username" placeholder="Enter  Username..."><input type="submit" value="Username"></form>
-        <form action="#" method="get"><input type="text" name="password"placeholder="enter password...."><input type="submit" value="password"></form> 
-        <form action="#" method="get"><input type="checkbox" name="stay logged in" value="ticked"><input type="submit" value="stay logged in"></form>
-        <input type="submit" value="submit">
-    </footer>
+<body>
 </body>
 
-</html>
+<footer class="contactform">
+    <h2>Contact Us</h2>
+<form action="mailto:zaintariq6780@icloud.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
 
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Submit">
+</footer>
+</form>
+</html>

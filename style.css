@@ -10,6 +10,13 @@ body {
     "aside aside"
     "footer footer"
 }
+.micro-5-regular {
+     font-weight: 5000;
+     color: #050505;
+      text-align: center;
+      margin-bottom: 20pxS;
+  }
+  
 .pageimage{
     position:fixed;
             top: 220px; 
@@ -19,7 +26,7 @@ body {
             border: 2px solid #0b0b0b;
 }
 header {
-    background-color: #388659;
+    background-color:rgb(237, 222, 204);
     color: white;
     padding: 20px;
     grid-area: header;
@@ -28,7 +35,7 @@ header {
 
 
 nav {
-    background-color: #d3e298; 
+    background-color:rgb(155, 155, 238); 
     grid-area: nav;
 }
     nav ul li a {
@@ -57,8 +64,7 @@ footer {
     background-color: #1a281f;
     color: #388659;
     grid-area: footer;
-}.showNav::before {content: '';position: absolute;width: 1.25em;margin-top: 0.3em;border-top: 0.2em solid #fff;}
-.showNav {height: 0.8em;width: 1.25em;display: block;border-top: 0.2em solid white;border-bottom: 0.2em solid white;border-radius: 0.2em;}
+}
 .button {
     color: black;
     text-decoration: none;
@@ -68,7 +74,8 @@ footer {
     text-align: center ;
 }
 .as{
-    position: fixed;
+    margin-bottom: 15px;
+    position:absolute
 }
 .bottom{
     position:fixed;
@@ -97,21 +104,21 @@ nav ul li a {
 }
 .img1{
     border: 3px solid #030303;
-    width: 450px;
-    height: 370px;    
+    width: 520px;
+    height: 450px;    
 }
 .img2{
     border: 3px solid #030303;
-    width: 450px;
-    height: 370px;
+    width: 520px;
+    height: 450px;
 }
 .img3{
     border: 3px solid #030303;
-    margin-right: 120px;
-    width: 420px;
-    height:350px;
+    margin-right: 7px;
+    width: 520px;
+    height:450px;
 }.a{
-    margin-top: 10px;
+    margin-top: 25px;
     display: flex;
     justify-content: space-around;
     background-color:rgb(249, 249, 240);
@@ -119,6 +126,57 @@ nav ul li a {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Optional: Set a background color */
+    background-color: #ffffff; /* Optional: Set a background color */
     overflow: hidden; /* Hide overflowing content */
 }
+.contactform{
+    position: static;
+    color: #ffffff;
+    margin: 5px;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+    padding: 0;
+
+    
+    max-width: 300px;
+    margin: 15px auto;
+    padding: 2px;
+    border-radius: 8px;
+
+    
+    text-align: center;
+    margin-bottom: 20px;
+
+    
+    display: grid;
+    grid-gap: 10px;
+    
+    font-weight: bold;
+}
+    form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="submit"] {
+    width: auto;
+    cursor: pointer;
+}
+.my {
+    display: flex; /* Use flexbox for positioning flexibility */
+    align-items: center; /* Vertically align the logo */
+    
+}
+.my img{
+    position:sticky;
+    width: 70px;
+    border-radius: 60%
+    
+}
+
