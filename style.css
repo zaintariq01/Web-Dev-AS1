@@ -9,14 +9,7 @@ body {
     "main main"
     "aside aside"
     "footer footer"
-}
-.micro-5-regular {
-     font-weight: 5000;
-     color: #050505;
-      text-align: center;
-      margin-bottom: 20pxS;
-  }
-  
+} 
 .pageimage{
     position:fixed;
             top: 220px; 
@@ -26,13 +19,12 @@ body {
             border: 2px solid #0b0b0b;
 }
 header {
-    background-color:rgb(237, 222, 204);
-    color: white;
+    background-color:rgb(23, 22, 21);
+    color: rgb(245, 238, 238);
     padding: 20px;
     grid-area: header;
 
 }
-
 
 nav {
     background-color:rgb(155, 155, 238); 
@@ -168,15 +160,20 @@ form input[type="submit"] {
     width: auto;
     cursor: pointer;
 }
-.my {
-    display: flex; /* Use flexbox for positioning flexibility */
-    align-items: center; /* Vertically align the logo */
-    
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
-.my img{
-    position:sticky;
-    width: 70px;
-    border-radius: 60%
-    
+.social-icons {
+    display: flex;
 }
-
+.social-icons a {
+    margin: 0 10px;
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
