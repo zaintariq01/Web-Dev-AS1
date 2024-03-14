@@ -1,4 +1,3 @@
-* {margin: 0;}
 body {
     display: grid;
     grid-template-columns: 80% 20%;
@@ -9,14 +8,6 @@ body {
     "main main"
     "aside aside"
     "footer footer"
-} 
-.pageimage{
-    position:fixed;
-            top: 220px; 
-            left: 400px; 
-            width: 600px; 
-            height: auto; 
-            border: 2px solid #0b0b0b;
 }
 header {
     background-color:rgb(23, 22, 21);
@@ -25,6 +16,11 @@ header {
     grid-area: header;
 
 }
+    main {
+    background-color: #ffffff;
+    grid-area: main
+}
+
 
 nav {
     background-color:rgb(155, 155, 238); 
@@ -40,23 +36,15 @@ nav {
         justify-content: space-around;      
         list-style: none;
     }
+    .mainpagepic{
+        width: 450px;
+    }
+    footer {
+        background-color: #1a281f;
+        color: #32a261;
+        grid-area: footer;
+    }
 
-
-main {
-    background-color: #ffffff;
-    grid-area: main
-}
-
-aside {
-    background-color: #388659;
-    grid-area: aside;
-}
-
-footer {
-    background-color: #1a281f;
-    color: #388659;
-    grid-area: footer;
-}
 .button {
     color: black;
     text-decoration: none;
@@ -76,18 +64,6 @@ footer {
     text-align: center;
     background-color: #0f0a0a;
     padding: 5px;
-}
-.pp{
-    margin-bottom: 5px;
-    display: grid;
-    background-color: #0b0b0b;
-}
-.op{ 
-    background-color: #eac807; 
-    grid-area: nav;
-    color: #060606;
-    text-decoration: none;
-    display: flex;
 }
 nav ul li a {
     color: #050505;
@@ -114,36 +90,13 @@ nav ul li a {
     display: flex;
     justify-content: space-around;
     background-color:rgb(249, 249, 240);
-}body {
+}
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #ffffff; /* Optional: Set a background color */
     overflow: hidden; /* Hide overflowing content */
-}
-.contactform{
-    position: static;
-    color: #ffffff;
-    margin: 5px;
-    margin-top: 40px;
-    font-family: Arial, sans-serif;
-    padding: 0;
-
-    
-    max-width: 300px;
-    margin: 15px auto;
-    padding: 2px;
-    border-radius: 8px;
-
-    
-    text-align: center;
-    margin-bottom: 20px;
-
-    
-    display: grid;
-    grid-gap: 10px;
-    
-    font-weight: bold;
 }
     form input,
 form textarea {
@@ -159,6 +112,24 @@ form textarea {
 form input[type="submit"] {
     width: auto;
     cursor: pointer;
+}
+.contactform{
+    background-color:rgb(155, 155, 238);
+    position: static;
+    color: #f8f0f0;
+    margin: 5px;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    max-width: 300px;
+    margin: 15px auto;
+    padding: 2px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: grid;
+    grid-gap: 10px;
+    font-weight: bold;
 }
 footer {
     background-color: #333;
@@ -176,4 +147,17 @@ footer {
 .social-icons img {
     width: 40px;
     height: 40px;
+}
+.ftr{
+    background-color: #0b0b0b;
+    height: 20px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-icons{
+    position: relative;
+    align-items: center;
+    width: 100%; /* Make sure the image fits within the container */
+    height: auto;
 }
