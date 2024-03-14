@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Contact page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
     <link rel="stylesheet" href="style.css">
 </head>
-
-<body>
-    <header><a class="showNav" href="#"></a>
-        <h1 class="my">Zain Tariq</h1>
-        <h1>BSc Web Development and CyberSecurity</h1>
-    </header>
+<body id="clicked">
+    <header>
+        <a class="showNav on" href="#clicked"></a>
+        <a class="showNav off" href="#"></a>
+        <div class="container">
+        <h1> MUHAMMAD ZAIN TARIQ </h1>
+    </div>   
+</header>
     <nav>
         <ul>
             <li><a href="index.html">Index</a></li>
@@ -40,4 +45,12 @@
     <input type="submit" value="Submit">
 </footer>
 </form>
+<footer class="ftr">
+    <div class="social-icons">
+        <a href="https://www.facebook.com/yourpage"><img src="socials icons/fbicon.png" alt="Facebook"></a>
+        <a href="https://twitter.com/youraccount"><img src="twittericon.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/youraccount"><img src="socials icons/instaicon.jpeg" alt="Instagram"></a>
+        <p>&copy;Muhammad Zain Tariq</p>
+    </div>
+
 </html>
