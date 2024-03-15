@@ -41,7 +41,9 @@ nav {
         color: white;
     }
     .mainpagepic{
+        margin-top: 12px;
         width: 450px;
+        height: 500px;
     }
     footer {
         background-color: #1a281f;
@@ -54,12 +56,6 @@ nav {
     text-decoration: none;
     font-size: 70px;
 }
-.er{
-    text-align: center ;
-}
-.as{
-    margin-bottom: 15px;
-    position:absolute
 }
 .bottom{
     position:fixed;
@@ -153,9 +149,11 @@ footer {
     height: 40px;
 }
 .ftr{
+    position: fixed;
     background-color: #0b0b0b;
-    height: 20px;
-    bottom: 0;
+    height: 10px;
+    width: 2500px;
+    bottom:0px;
     justify-content: center;
 }
 .social-icons{
@@ -173,4 +171,22 @@ div img {
 }
 main div {
     border: 1px solid black;padding: 2em;
+}
+.bruteforce{
+    width: 160px;
+}
+.subnetting{
+    width: 160px;
+}
+.phishing{
+    width: 160px;   
+}
+.keylogging{
+    width: 160px;
+}
+.srp{
+     line-height: 1.9;
+}
+.indr{
+    line-height: 1.9;
 }
