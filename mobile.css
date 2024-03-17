@@ -138,9 +138,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-    /* Optional: Set a background color */
     overflow: hidden;
-    /* Hide overflowing content */
 }
 
 form input,
@@ -206,13 +204,16 @@ footer {
     display: flex;
     justify-content: center;
 }
-
-.social-icons {
+.socialicons{
     position: relative;
-    align-items: center;
-    width: 100%;
-    /* Make sure the image fits within the container */
+    text-align: start;
+    width: 100%; 
     height: auto;
+    transition:transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.socialicons :hover{
+    color: rgb(229, 22, 57);
+    transform:translateY(-10px);
 }
 
 main {

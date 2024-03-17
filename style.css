@@ -10,7 +10,7 @@ body {
     "footer footer"
 }
 header {
-    background-color:rgb(23, 22, 21);
+    background-color:rgb(156, 109, 62);
     color: rgb(245, 238, 238);
     padding: 20px;
     grid-area: header;
@@ -20,7 +20,6 @@ header {
     background-color: #ffffff;
     grid-area: main
 }
-
 
 nav {
     background-color:rgb(155, 155, 238); 
@@ -38,7 +37,7 @@ nav {
     }
 
     nav ul li a:hover {
-        color: white;
+        color: rgb(15, 14, 14);
     }
     .mainpagepic{
         margin-top: 12px;
@@ -47,7 +46,6 @@ nav {
     }
     footer {
         background-color: #1a281f;
-        color: #32a261;
         grid-area: footer;
     }
 
@@ -55,7 +53,6 @@ nav {
     color: black;
     text-decoration: none;
     font-size: 70px;
-}
 }
 .bottom{
     position:fixed;
@@ -70,22 +67,7 @@ nav ul li a {
     text-decoration: none;
     grid-area: nav;
 }
-.img1{
-    border: 3px solid #030303;
-    width: 520px;
-    height: 450px;    
-}
-.img2{
-    border: 3px solid #030303;
-    width: 520px;
-    height: 450px;
-}
-.img3{
-    border: 3px solid #030303;
-    margin-right: 7px;
-    width: 520px;
-    height:450px;
-}.a{
+.a{
     margin-top: 25px;
     display: flex;
     justify-content: space-around;
@@ -95,8 +77,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #ffffff; /* Optional: Set a background color */
-    overflow: hidden; /* Hide overflowing content */
+    background-color: #f fffff;
+    overflow: hidden; 
 }
     form input,
 form textarea {
@@ -113,17 +95,20 @@ form input[type="submit"] {
     width: auto;
     cursor: pointer;
 }
+.cont{
+    justify-content: center;
+}
 .contactform{
     background-color:rgb(155, 155, 238);
-    position: static;
+    position:relative;
     color: #f8f0f0;
-    margin: 5px;
+    margin: 50px;
     margin-top: 40px;
     font-family: Arial, sans-serif;
-    padding: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
     max-width: 300px;
     margin: 15px auto;
-    padding: 2px;
     border-radius: 8px;
     text-align: center;
     margin-bottom: 20px;
@@ -134,33 +119,31 @@ form input[type="submit"] {
 footer {
     background-color: #333;
     color: white;
-    padding: 20px;
-    display: flex;
+    padding: 3px;
     justify-content: center;
-}
-.social-icons {
-    display: flex;
-}
-.social-icons a {
-    margin: 0 10px;
-}
-.social-icons img {
-    width: 40px;
-    height: 40px;
+    grid-area:nav ;
+    list-style: none;
 }
 .ftr{
     position: fixed;
     background-color: #0b0b0b;
-    height: 10px;
-    width: 2500px;
+    width: 1500px;
     bottom:0px;
-    justify-content: center;
+    height: 35px;
 }
-.social-icons{
+.ftr i{
+    font-size: 2.4em;
+}
+.socialicons{
     position: relative;
-    align-items: center;
-    width: 100%; /* Make sure the image fits within the container */
+    text-align: start;
+    width: 100%; 
     height: auto;
+    transition:transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.socialicons :hover{
+    color: rgb(229, 22, 57);
+    transform:translateY(-10px);
 }
 main {
     display: grid;
@@ -189,4 +172,72 @@ main div {
 }
 .indr{
     line-height: 1.9;
+}
+section h3:nth-child(3){
+    color: red;
+}
+i{
+    color: #fffefe;
+    font-size: 1.8em;
+    letter-spacing: 7px;
+}
+.navproject{
+    font-size: 0.8em;
+    font-weight: bold;
+    transition:transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.navproject i:hover{
+    color: #000;
+    transform:translateY(-10px);
+}
+.box{
+    transition:transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.box :hover{
+    transform:translateY(-6px);
+}
+.indnav{
+    font-size: 0.8em;
+    font-weight: bold;
+    transition:transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.indnav i:hover{
+    color: #000;
+    transform:translateY(-10px);
+}
+.sitnav{
+    font-size: 0.8em;
+    font-weight: bold;
+    transition:transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.sitnav i:hover{
+    color: #000;
+    transform:translateY(-10px);
+}
+.contnav{
+    font-size: 0.8em;
+    font-weight: bold;
+    transition:transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.contnav i:hover{
+    color: #000;
+    transform:translateY(-10px);
+}
+.cvalimg{
+    width: 230px;
+    align-items:center;
+   
+}
+.cv2{
+    width: 230px;
+} 
+.vidnav{
+    font-size: 0.8em;
+    font-weight: bold;
+    transition:transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.vidnav i:hover{
+    color: #000;
+    transform:translateY(-10px);
 }
